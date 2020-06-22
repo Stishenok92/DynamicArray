@@ -25,6 +25,9 @@
 /* Begin PBXFileReference section */
 		ABDB16D024A005D60008EFCA /* DynamicArray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynamicArray; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDB16D324A005D60008EFCA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ABDB16DB24A007120008EFCA /* array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
+		ABDB16DD24A01B0E0008EFCA /* Text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Text.txt; path = ../../Desktop/Text.txt; sourceTree = "<group>"; };
+		ABDB16DF24A01CC10008EFCA /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,22 +45,26 @@
 			isa = PBXGroup;
 			children = (
 				ABDB16D224A005D60008EFCA /* DynamicArray */,
-				ABDB16D124A005D60008EFCA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
 		ABDB16D124A005D60008EFCA /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				ABDB16DD24A01B0E0008EFCA /* Text.txt */,
 				ABDB16D024A005D60008EFCA /* DynamicArray */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		ABDB16D224A005D60008EFCA /* DynamicArray */ = {
 			isa = PBXGroup;
 			children = (
 				ABDB16D324A005D60008EFCA /* main.cpp */,
+				ABDB16DB24A007120008EFCA /* array.h */,
+				ABDB16DF24A01CC10008EFCA /* stack.h */,
+				ABDB16D124A005D60008EFCA /* Products */,
 			);
 			path = DynamicArray;
 			sourceTree = "<group>";
