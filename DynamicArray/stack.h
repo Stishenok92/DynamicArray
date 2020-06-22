@@ -9,15 +9,16 @@ private:
     bool isEmpty() const;
     bool isFull() const;
 public:
-    Stack() : Array(def), top(0) {}
+    Stack(): Array(def), top(0) {}
     Stack(size_t temp_size) : Array(temp_size), top(0) {}
     Stack(const Stack&);
     Stack& operator=(const Stack&);
+    ~Stack() {}
     void push(const int);
     int pop();
     friend std::istream& operator>> (std::istream&, Stack&);
     friend std::ostream& operator<< (std::ostream&, const Stack&);
-    virtual void print() const;
+    void print() const;
     void menu();
 };
 

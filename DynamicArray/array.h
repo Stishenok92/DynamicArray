@@ -55,12 +55,13 @@ std::istream& operator>>(std::istream& in, Array& temp)
     return in;
 }
 
-std::ostream& operator<<(std::ostream& out, const Array& temp)
+
+std::ostream& operator<<(std::ostream& out, const int* temp)
 {
-    for (size_t i = 0; i < temp.size; i++)
-    {
-        out << temp.arr[i] << " ";
-    }
+//    for (size_t i = 0; i < temp.size; i++)
+//    {
+        out << temp;
+//    }
     
     return out;
 }
