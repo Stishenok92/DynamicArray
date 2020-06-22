@@ -23,7 +23,7 @@ bool Stack:: isEmpty() const
 
 bool Stack:: isFull() const
 {
-    return (top == size - 1) ? true : false;
+    return (top == size) ? true : false;
 }
 
 void Stack:: push(const int key)
@@ -34,7 +34,7 @@ void Stack:: push(const int key)
     }
     else
     {
-        std::cout << "Stack filled\n";
+        std::cout << "Stack is full\n";
     }
 }
 
@@ -46,7 +46,7 @@ int Stack:: pop()
     }
     else
     {
-        std::cout << "Stack empty\n";
+        std::cout << "Stack is empty\n";
         return 0;
     }
 }
